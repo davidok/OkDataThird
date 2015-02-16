@@ -54,7 +54,7 @@
 			 * Changed "item" variable to avoid repetition
 			 */
 			var pastry = pastryToSort[i];
-			console.log(pastry);
+
 			
 			if(pastry.type == "filled") {
 				console.log(pastry);
@@ -67,7 +67,17 @@
 		
 		}//end of sortPastry function
 		
-		sortPastry(doughnuts);
+		/*
+		 * I expect the function to show the name and types of "filled" doughnuts
+		 * and to show "sold out" for "plain" doughnuts. I expect that two of the
+		 * doughnuts will show and two will show as sold out.
+		 */
+		sortPastry(doughnuts); 
+		/*
+		 * I expect the function to show the name and types of "filled" doughnuts
+		 * and to show "sold out" for "plain" doughnuts. Only one doughnut will 
+		 * show and the other three will show as sold out.
+		 */						
 		sortPastry(doughnuts_2);
 
 
