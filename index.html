@@ -44,6 +44,7 @@
 
 	function sortPastry(pastryToSort){
 
+		var bestPastry = [];
 
 		/*
 		 * Loop starts at index zero and ends before index 4,
@@ -57,13 +58,15 @@
 
 			
 			if(pastry.type == "filled") {
-				console.log(pastry);
+				bestPastry.push(pastry);
 			
 			}else{
 				console.log("sold out");
 			}//end of conditional
 			
 		} //end of for loop
+		
+		return(bestPastry);
 		
 		}//end of sortPastry function
 		
