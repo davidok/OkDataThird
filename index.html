@@ -34,17 +34,18 @@
 		 * increment i by 1 each time
 		 */
 		for(var i=0;i<4;i++){
+			/*
+			 * Changed "item" variable to avoid repetition
+			 */
+			var pastry = doughnuts[i];
+			console.log(pastry);
 			
-			var item = doughnuts[i];
-			console.log(item);
-			
-			if(item.type == "filled") {
-				console.log(item);
+			if(pastry.type == "filled") {
+				console.log(pastry);
 			
 			}else{
 				console.log("sold out");
 			}//end of conditional
-			
 			
 		} //end of for loop
 		
